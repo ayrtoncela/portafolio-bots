@@ -59,6 +59,26 @@ Laboratorio de fotografía analógica en CDMX. Bot de Instagram que maneja el fl
 
 ---
 
+### 🎨 Mikaela Montenegro — Instagram Bot + Sistema de talleres
+
+Artista plástica ecuatoriana con exposiciones en NYC, París y Quito. Bot de Instagram orientado a campañas de reels boosteados, con gestión de talleres de arte.
+
+| Canal | Stack | Estado |
+|---|---|---|
+| Instagram DMs | Node.js + Supabase + Railway | ✅ Producción |
+
+**Funcionalidades:**
+- Bot responde solo a DMs originados desde reels boosteados (matcheo por `post_id` de Meta)
+- Cada campaña tiene contexto propio: taller, precio, horario, lugar, cupo
+- Cupo máximo numérico: auto-pausa la campaña al inscribir el último alumno
+- Alumnos inscritos siguen recibiendo respuesta aunque la campaña esté pausada
+- Killswitch individual por conversación
+- Borrador IA para copy-paste manual cuando el bot no puede responder (ventana 24h)
+- Dashboard: inscripción de alumnos desde conversación, badges de taller, contador en tiempo real
+- Website bilingüe (ES/EN) con páginas de exposición, slideshow de obras y modal de compra
+
+---
+
 ### 🧪 Laboratorio Clínico — WhatsApp Bot
 **Canal:** WhatsApp + Web Chat
 
@@ -113,6 +133,7 @@ Bot de reservaciones y atención de comensales.
 **Operaciones**
 - Dashboard HTML por cliente con autenticación
 - Human takeover — pausa el bot y permite respuesta manual del asesor
+- Killswitch individual por conversación
 - Pipeline visual de estado del pedido
 - Notificaciones push al cliente por Instagram/WhatsApp
 - Soporte para imágenes entrantes (comprobantes, fotos)
@@ -145,5 +166,8 @@ Bot de reservaciones y atención de comensales.
 **Ayrton Cela** — Consulting Engineering Manager & AI Builder  
 Ciudad de México 🇲🇽
 
-> *Construido con ayuda de Claude*
+**WhatsApp:** [+52 5544621764](https://wa.me/525544621764)  
+**Email:** ayrtoncela94@gmail.com  
+**GitHub:** [github.com/ayrtoncela](https://github.com/ayrtoncela)
 
+> *Construido con ayuda de Claude*
