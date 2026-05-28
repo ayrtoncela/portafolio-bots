@@ -168,7 +168,7 @@ Ciudad de México 🇲🇽
 Quito 🇪🇨
 
 **WhatsApp:** [+52 5544621764](https://wa.me/525544621764)  
-**Ecuador:** Llamadas unicamente +593 987358859
+**Ecuador:** [+583 987358859](https://wa.me/593987358859)  
 **Email:** ayrton@ayrtoncela.cloud  
 **GitHub:** [github.com/ayrtoncela](https://github.com/ayrtoncela)
 
