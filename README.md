@@ -165,8 +165,10 @@ Bot de reservaciones y atención de comensales.
 
 **Ayrton Cela** — Consulting Engineering Manager & AI Builder  
 Ciudad de México 🇲🇽
+Quito 🇪🇨
 
 **WhatsApp:** [+52 5544621764](https://wa.me/525544621764)  
+**Ecuador:** Llamadas unicamente +593 987358859
 **Email:** ayrtoncela94@gmail.com  
 **GitHub:** [github.com/ayrtoncela](https://github.com/ayrtoncela)
 
