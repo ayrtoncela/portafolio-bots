@@ -164,7 +164,7 @@ Bot de reservaciones y atención de comensales.
 ## 👨‍💻 Autor
 
 **Ayrton Cela** — Consulting Engineering Manager & AI Builder  
-Ciudad de México 🇲🇽
+Ciudad de México 🇲🇽  
 Quito 🇪🇨
 
 **WhatsApp:** [+52 5544621764](https://wa.me/525544621764)  
