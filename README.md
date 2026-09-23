@@ -27,6 +27,8 @@
 
 **Stack:** `Node.js` `Express` `OpenAI` `pgvector` `Instagram Graph API` `Supabase` `PostgreSQL` `Stripe` `Railway` `Sentry`
 
+📄 [Caso de estudio](https://www.ayrtoncela.cloud/atico.html?lang=es)
+
 ---
 
 ### 2. Mikaela Montenegro — CRM conversacional y atribución de leads · `En producción`
@@ -44,9 +46,29 @@
 
 **Stack:** `Node.js` `Express` `OpenAI` `RAG` `Supabase` `Stripe` `Resend` `Railway`
 
+📄 [Caso de estudio](https://www.ayrtoncela.cloud/mikaela.html?lang=es)
+
 ---
 
-### 3. AyrTok — Plataforma de agendamiento conversacional (SaaS multi-cliente) · `En producción`
+### 3. RENACE 2026 — Entradas con QR, check-in sin conexión y certificados · `Entregado`
+
+> Evento de dos días en Guayaquil (6 y 7 de septiembre de 2026). Una entrada con QR individual por asistente, check-in en la puerta sin depender del wifi del salón y certificados de asistencia al final.
+
+**Resultados:** 318 asistentes en 4 tipos de entrada · 305 entradas entregadas por correo sin rebote · 6 celulares escaneando sin conexión en una sola puerta · 237 certificados entregados
+
+- Limpieza de datos desde el Excel del organizador: encabezados vacíos, dos correos en una celda, caracteres invisibles
+- Generador de entradas (plantilla del diseñador + nombre + QR único) y envío por SMTP con reconexión automática
+- Revisión de rebotes por IMAP cruzada con la lista de asistentes; cada envío fallido con su motivo
+- App de check-in sin conexión (PWA): escaneo de QR, detección de duplicados con la hora del primer ingreso, búsqueda por nombre, exportación a CSV
+- 253 certificados en PDF cruzados con los asistentes por nombre normalizado
+
+**Stack:** `Python` `openpyxl` `Pillow` `qrcode` `SMTP/IMAP` `ReportLab` `PWA` `html5-qrcode` `Vercel`
+
+📄 [Caso de estudio](https://www.ayrtoncela.cloud/renace.html?lang=es) · 🔗 [Demo](https://checkin-rho-teal.vercel.app) (código `renace2026`, solo datos de ejemplo)
+
+---
+
+### 4. AyrTok — Plataforma de agendamiento conversacional (SaaS multi-cliente) · `En producción`
 
 > Producto propio. Clínicas y negocios pequeños agendan a mano por WhatsApp e Instagram.
 
@@ -61,7 +83,7 @@
 
 ---
 
-### 4. Laboratorio clínico — Bot de agendamiento por WhatsApp · `Demo en vivo`
+### 5. Laboratorio clínico — Bot de agendamiento por WhatsApp · `Demo en vivo`
 
 - Agendamiento paso a paso: tipo de estudio → sucursal → día → hora → datos del paciente
 - 3 sucursales con horarios e instrucciones de preparación por estudio
@@ -74,13 +96,15 @@
 
 ---
 
-### 5. Plataforma de finanzas personales — Pipeline de datos local
+### 6. Plataforma de finanzas personales — Pipeline de datos local
 
 - Un parser por banco o tarjeta: extracción de texto de PDF más OCR para estados escaneados
 - Transacciones normalizadas en una sola base SQLite con categorización e indicadores mensuales
 - Una auditoría de calidad de datos encontró y corrigió 29 transacciones duplicadas y 4 mal categorizadas que inflaban un mes en cerca de 25%
 
 **Stack:** `Python` `SQLite` `pdfplumber` `Tesseract OCR`
+
+📄 [Caso de estudio](https://www.ayrtoncela.cloud/finanzas.html?lang=es) (las pantallas usan datos ficticios)
 
 ---
 
